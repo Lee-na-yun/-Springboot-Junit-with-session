@@ -1,9 +1,12 @@
 package site.metacoding.firstapp.domain.product;
 
-@Setter
-@Getter
 import java.security.Timestamp;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 public class Product {
     private Integer productId;
     private String productName;
